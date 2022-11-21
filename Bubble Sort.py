@@ -13,3 +13,4 @@ def bubble_sort(arr):
 
 test = [89, 45, 68, 90, 34, 17]
 print(bubble_sort(test))
+# Output [17, 34, 45, 68, 89, 90]
