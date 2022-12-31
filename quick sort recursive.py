@@ -17,16 +17,7 @@ def quick_sort(arr):
                 s3.append(i)
             else: # i == pivot
                 s2.append(i)
-        # quick_sort(s1)
-        # quick_sort(s3)
-        
-        # arr_2 = []
-        # for i in s1:
-        #     arr_2.append(i)
-        # for i in s2:
-        #     arr_2.append(i)
-        # for i in s3:
-        #     arr_2.append(i)
+                
         return quick_sort(s1) + s2 + quick_sort(s3)
 
         
